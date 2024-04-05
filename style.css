@@ -1,35 +1,39 @@
 .cloud11 {
     display: block;
     margin-left: 70%;
-    
+
 }
 
-.don{
+.don {
     font-family: "Dancing Script", cursive;
     margin-left: 40%;
     font-size: 4rem;
     color: #6AD4DD;
 }
 
-.pro{
+.pro {
     margin-left: 45%;
     font-size: 30px;
     color: #6AD4DD;
 }
 
-.cloud2{
+.cloud2 {
     margin-left: 15%;
 }
 
-.mountain{
-    margin-left: 30%;
+.mountain {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
-.container{
+.container {
     background-color: #F8F6E3;
 }
 
-.sumit{
+.sumit {
     position: relative;
     margin-top: 75px;
     height: 249px;
@@ -38,38 +42,39 @@
     margin-left: 42%;
 }
 
-.profile > h1 {
+.profile>h1 {
     font-family: "Butterfly Kids", cursive;
     margin-left: 48%;
     color: #6AD4DD;
 
 }
 
-.profile > p {
+.profile>p {
     margin-left: 37%;
     font-family: "Roboto Mono", monospace;
 }
 
-hr{
+hr {
     border: dotted #eaf6f6 6px;
     border-bottom: none;
     width: 4%;
     margin: 100px auto;
 }
 
-.skill > h1 {
+.skill>h1 {
     margin-left: 47%;
     font-family: "Butterfly Kids", cursive;
     color: #6AD4DD;
 }
 
-.catf{
+.catf {
     position: relative;
     height: 200px;
     width: 200px;
     float: left;
 }
-.cat{
+
+.cat {
     display: inline-block;
     width: 40%;
     margin-left: 30%;
@@ -77,14 +82,14 @@ hr{
 
 }
 
-.pc > img {
+.pc>img {
     position: relative;
     height: 200px;
     width: 200px;
     float: right;
 }
 
-.pc{
+.pc {
     display: inline-block;
     width: 40%;
     margin-left: 30%;
@@ -92,28 +97,31 @@ hr{
 
 }
 
-.pc > h3{
-    color: #138893;
-}
-.cat > h3{
+.pc>h3 {
     color: #138893;
 }
 
-.contact > h2{
+.cat>h3 {
+    color: #138893;
+}
+
+.contact>h2 {
     margin-left: 43.5%;
     color: #138893;
 }
-.contact > p{
+
+.contact>p {
     margin-left: 41.5%;
     color: #138893;
     font-family: "Roboto Slab", serif;
 }
-.contact > h3{
+
+.contact>h3 {
     margin-left: 41.5%;
     color: #138893;
 }
 
-.btn{
+.btn {
     margin-left: 45%;
     background: #11cdd4;
     background-image: linear-gradient(to bottom, #11cdd4, #11999e);
@@ -125,10 +133,11 @@ hr{
     text-decoration: none;
 }
 
-.last{
+.last {
     background-color: #6AD4DD;
 }
-.linkedin{
+
+.linkedin {
     background: #6AD4DD;
     background-image: linear-gradient(to bottom, #6AD4DD, #6AD4DD);
     text-decoration: none;
@@ -136,44 +145,9 @@ hr{
     margin-left: 47%;
 }
 
-footer{
+footer {
     color: white;
     margin-left: 45.5%;
 }
 
-/* for tablet */
 
-@media screen and (min-device-width: 768px) 
-    and (max-device-width: 1024px) {
-    body {
-        width: 400px;
-        height: 400px;
-    }
-}
-
-/* For Mobile Portrait View */
-@media screen and (max-device-width: 480px) 
-    and (orientation: portrait) {
-    body{
-        width: 200px;
-        height: 200px;
-    }
-}
-
-/* For Mobile Landscape View */
-@media screen and (max-device-width: 640px) 
-    and (orientation: landscape) {
-    body {
-        width: 400px;
-        height: 200px;
-    }
-}
-
-/* For Mobile Phones Portrait or Landscape View */
-@media screen
-    and (max-device-width: 640px) {
-    body {
-        width: 400px;
-        height: 200px;
-    }
-}
